@@ -9,8 +9,14 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header {
+.header-wrapper {
   background-color: #1f2937;
+}
+
+header {
+  max-width: 1000px;
+  margin: auto;
+  /* background-color: #1f2937; */
   height: 70px;
 }
 
@@ -46,12 +52,18 @@ nav {
   color: #e5e7eb;
 }
 
+.hero-wrapper {
+  background-color: #1f2937;
+}
+
 .hero {
+  max-width: 1000px;
+  margin: auto;
   height: 500px;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #1f2937;
+  /* background-color: #1f2937; */
 }
 
 .hero h1 {
