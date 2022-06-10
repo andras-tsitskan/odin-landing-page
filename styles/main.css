@@ -87,6 +87,6 @@ button {
   font-weight: 900;
   color: #e5e7eb;
   border: 0px;
-  border-radius: 15px;
-  padding: 1rem 2rem;
+  border-radius: 8px;
+  padding: 0.5rem 2rem;
 }
