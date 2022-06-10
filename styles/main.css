@@ -8,3 +8,40 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+header {
+  background-color: #1f2937;
+  height: 70px;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 0.5rem; */
+}
+
+.nav-logo a {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #f9faf8;
+  padding-left: 1rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-links li {
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
