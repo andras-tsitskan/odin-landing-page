@@ -45,3 +45,32 @@ nav {
   font-size: 18px;
   color: #e5e7eb;
 }
+
+.hero {
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  font-size: 18px;
+  font-weight: 900;
+  color: #e5e7eb;
+  border: 0px;
+  border-radius: 15px;
+  padding: 1rem 2rem;
+}
