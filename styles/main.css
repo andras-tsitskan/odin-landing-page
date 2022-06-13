@@ -89,11 +89,15 @@ nav {
 
 /* SYMBOLS */
 
+.symbols-section {
+  padding: 5rem 0;
+}
+
 .symbols-section h2 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
-  margin: 2rem 0;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
