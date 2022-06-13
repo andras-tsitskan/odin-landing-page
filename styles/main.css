@@ -9,15 +9,18 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header-wrapper {
-  background-color: #1f2937;
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 header {
-  max-width: 1000px;
-  margin: auto;
-  /* background-color: #1f2937; */
   height: 70px;
+  background-color: #1f2937;
+}
+
+header .wrapper {
+  height: 100%;
 }
 
 nav {
@@ -52,18 +55,16 @@ nav {
   color: #e5e7eb;
 }
 
-.hero-wrapper {
-  background-color: #1f2937;
+.hero .wrapper {
+  height: 500px;
+  display: flex;
 }
 
 .hero {
-  max-width: 1000px;
-  margin: auto;
-  height: 500px;
-  display: flex;
+  height: 100%;
+  background-color: #1f2937;
   justify-content: space-around;
   align-items: center;
-  /* background-color: #1f2937; */
 }
 
 .hero h1 {
