@@ -110,6 +110,27 @@ nav {
   border-radius: 5px;
 }
 
+/* QUOTE */
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 5rem 0;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1f2937;
+  text-align: right;
+}
+
 /* GENERAL */
 
 button {
