@@ -118,7 +118,7 @@ nav {
 
 .quote {
   background-color: #e5e7eb;
-  padding: 5rem 0;
+  padding: 5rem 10rem;
 }
 
 .quote-text {
@@ -126,6 +126,7 @@ nav {
   font-weight: 300;
   font-style: italic;
   color: #1f2937;
+  margin-bottom: 1rem;
 }
 
 .quote-author {
@@ -135,13 +136,38 @@ nav {
   text-align: right;
 }
 
+/* ACTION */
+
+.action-div {
+  background-color: #3882f6;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  align-items: center;
+  padding: 3rem 5rem;
+  margin: 5rem auto;
+  border-radius: 8px;
+}
+
+.action-div p {
+  font-size: 0.8rem;
+  font-weight: 200;
+  margin-top: 0.3rem;
+}
+
+.action-div .discover-more {
+  min-width: 200px;
+  border: 2px solid white;
+}
+
 /* GENERAL */
 
 button {
   background-color: #3882f6;
   font-size: 18px;
   font-weight: 900;
-  color: #e5e7eb;
+  color: white;
   border: 0px;
   border-radius: 8px;
   padding: 0.5rem 2rem;
