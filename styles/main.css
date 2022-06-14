@@ -161,6 +161,18 @@ nav {
   border: 2px solid white;
 }
 
+/* FOOTER */
+
+footer {
+  height: 70px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
 /* GENERAL */
 
 button {
